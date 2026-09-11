@@ -11,3 +11,5 @@ if final_price>=5000:
     print("category : premium product ")
 elif final_price>=2000:
     print("category : mid range product")
+elif final_price>=500 : 
+    print("category : budget product")
