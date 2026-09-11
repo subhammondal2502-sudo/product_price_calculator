@@ -7,4 +7,6 @@ final_price = original_price - discount_amount
 print("product name :", product_name)
 print("discount amount :", discount_amount)
 print("final price :", final_price)
+if final_price>=5000:
+    print("category : premium product ")
 
