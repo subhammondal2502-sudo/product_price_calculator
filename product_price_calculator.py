@@ -9,4 +9,5 @@ print("discount amount :", discount_amount)
 print("final price :", final_price)
 if final_price>=5000:
     print("category : premium product ")
-
+elif final_price>=2000:
+    print("category : mid range product")
